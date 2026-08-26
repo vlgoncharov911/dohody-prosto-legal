@@ -1,25 +1,26 @@
-﻿<!DOCTYPE html>
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="ru" class="theme-settings">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
   <meta name="description" content="Пользовательские правовые документы приложения «Доходы Просто».">
   <title>Правовая информация — Доходы Просто</title>
   <link rel="stylesheet" href="../assets/styles.css">
 </head>
 <body>
   <div class="page">
-    <header class="site-nav">
-      <a class="brand" href="./">Доходы Просто</a>
-      <a class="nav-link" href="./">Все документы</a>
-    </header>
     <main>
-      <h1>Доходы Просто</h1>
-      <p class="lede">Правовая информация · Main / RuStore</p>
-      <p>Документы для версии приложения 1.0.0</p>
-      <p>Каждый документ содержит собственный номер версии и дату обновления.</p>
-      <p class="note">Статус: рабочие редакции. Реквизиты Разработчика будут заполнены до финальной публикации.</p>
-      <ul class="doc-list">
+      <header class="hero">
+        <h1>Доходы Просто</h1>
+        <p class="hero-sub">Правовая информация</p>
+      </header>
+      <p class="app-ver">Документы для версии приложения 1.0.0</p>
+      <div class="draft">
+        <p class="draft-title">Рабочие редакции</p>
+        <p class="draft-text">Реквизиты разработчика будут заполнены перед финальной публикацией.</p>
+      </div>
+      <ul class="settings-list">
         <li><a href="privacy/">Политика конфиденциальности</a></li>
         <li><a href="terms/">Пользовательское соглашение</a></li>
         <li><a href="pro/">Условия PRO</a></li>
@@ -27,7 +28,12 @@
         <li><a href="deletion/">Удаление данных</a></li>
         <li><a href="licenses/">Лицензии открытого ПО</a></li>
       </ul>
-      <p class="back"><a href="archive/">Архив документов предыдущих версий</a></p>
+      <section class="archive-block">
+        <h2 class="section-label">Предыдущие версии</h2>
+        <ul class="settings-list">
+          <li><a href="archive/">Архив документов</a></li>
+        </ul>
+      </section>
     </main>
   </div>
 </body>
