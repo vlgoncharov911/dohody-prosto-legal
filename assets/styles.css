@@ -745,6 +745,19 @@ html.studio-home .studio-app-card:focus-visible {
   border-color: rgba(232, 213, 181, 0.28);
 }
 
+html.studio-home .studio-app-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+html.studio-home .studio-app-icon {
+  width: 76px;
+  height: 76px;
+  flex: none;
+  display: block;
+}
+
 html.studio-home .studio-app-card h3 {
   margin: 0;
   font-size: 26px;
@@ -759,6 +772,12 @@ html.studio-home .studio-app-card p {
   font-size: 16px;
   line-height: 1.5;
   color: #9a9690;
+}
+
+html.studio-home .studio-app-lead {
+  margin-top: 16px;
+  font-size: 17px;
+  color: #f4f1ea;
 }
 
 html.studio-home .studio-tags {
@@ -888,8 +907,17 @@ html.studio-home .studio-copy {
     padding: 22px 20px 20px;
   }
 
+  html.studio-home .studio-app-icon {
+    width: 56px;
+    height: 56px;
+  }
+
   html.studio-home .studio-app-card h3 {
     font-size: 22px;
+  }
+
+  html.studio-home .studio-app-lead {
+    font-size: 16px;
   }
 
   html.studio-home .studio-about {
