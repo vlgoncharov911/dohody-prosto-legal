@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="ru" class="theme-settings">
+<html lang="ru" class="studio-home">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#000000">
-  <meta name="description" content="Prosto Studio — простые приложения для повседневных задач.">
+  <meta name="theme-color" content="#0c0c0d">
+  <meta name="description" content="Prosto Studio — простые приложения для повседневных и рабочих задач.">
   <title>Prosto Studio</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <div class="page">
+  <div class="studio">
+    <header class="studio-header">
+      <a class="studio-brand" href="./">Prosto Studio</a>
+      <nav class="studio-nav" aria-label="Разделы страницы">
+        <a href="#apps">Приложения</a>
+        <a href="#about">О разработчике</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
     <main>
-      <header class="hero">
-        <h1>Prosto Studio</h1>
-        <p class="hero-sub">Простые приложения для повседневных задач.</p>
-      </header>
-      <section class="section-block">
-        <h2 class="section-label">Наши приложения</h2>
-        <a class="app-card" href="apps/dohody-prosto/">
-          <h2>Доходы Просто</h2>
+      <section class="studio-hero">
+        <h1>
+          <span>Простые приложения.</span>
+          <span class="studio-hero-accent">Для реальных задач.</span>
+        </h1>
+        <p class="studio-lead">Prosto Studio создаёт понятные инструменты, которые помогают меньше заниматься рутиной и больше — своей работой.</p>
+      </section>
+
+      <section class="studio-apps" id="apps">
+        <h2>Наши приложения</h2>
+        <a class="studio-app-card" href="apps/dohody-prosto/">
+          <h3>Доходы Просто</h3>
           <p>Учёт доходов, работ и расходов для самостоятельных специалистов.</p>
-          <span class="card-action">Подробнее</span>
+          <ul class="studio-tags">
+            <li>Доходы</li>
+            <li>Работы</li>
+            <li>Расходы</li>
+            <li>Аналитика</li>
+            <li>Резервные копии</li>
+          </ul>
+          <span class="studio-more">Подробнее →</span>
         </a>
       </section>
-      <section class="contacts">
-        <h2 class="section-label">Контакты</h2>
-        <a href="mailto:DohodyProsto@yandex.ru">DohodyProsto@yandex.ru</a>
+
+      <section class="studio-about" id="about">
+        <h2>О разработчике</h2>
+        <p>Prosto Studio — приложения для повседневных и рабочих задач.</p>
+        <ul class="studio-requisites">
+          <li>ИП Гончарова Ольга Сергеевна</li>
+          <li>ИНН 910230205959</li>
+          <li>ОГРНИП 326910000053921</li>
+        </ul>
       </section>
     </main>
+
+    <footer class="studio-footer" id="contacts">
+      <h2>Контакты</h2>
+      <a class="studio-email" href="mailto:DohodyProsto@yandex.ru">DohodyProsto@yandex.ru</a>
+      <p class="studio-copy">© 2026 Prosto Studio</p>
+    </footer>
   </div>
 </body>
 </html>
