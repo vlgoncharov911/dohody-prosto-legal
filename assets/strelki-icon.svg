@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="160" height="160">
+  <defs>
+    <clipPath id="strelki-launcher">
+      <rect x="18" y="18" width="72" height="72" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#strelki-launcher)">
+    <rect width="108" height="108" fill="#1A2330"/>
+    <path d="M77,55 L61,55" fill="none" stroke="#A9BDD2" stroke-width="7" stroke-linecap="round"/>
+    <path fill="#A9BDD2" d="M50,55 L62,46.5 L62,63.5 Z"/>
+    <path d="M59,84 L59,78" fill="none" stroke="#A9BDD2" stroke-width="7" stroke-linecap="round"/>
+    <path fill="#A9BDD2" d="M59,67 L50.5,79 L67.5,79 Z"/>
+    <path d="M35,80 L35,35 L63,35" fill="none" stroke="#F6C453" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fill="#F6C453" d="M76,35 L63,26.5 L63,43.5 Z"/>
+  </g>
+</svg>

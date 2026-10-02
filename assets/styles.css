@@ -724,6 +724,10 @@ html.studio-home .studio-footer h2 {
   color: #9a9690;
 }
 
+html.studio-home .studio-app-card + .studio-app-card {
+  margin-top: 16px;
+}
+
 html.studio-home .studio-app-card {
   display: block;
   padding: 28px 28px 24px;
@@ -1075,13 +1079,21 @@ html.studio-product .product-shots figure {
   scroll-snap-align: start;
 }
 
-html.studio-product .product-shots img {
+html.studio-product .product-shots img,
+html.studio-product .product-shots .shot-slot {
   display: block;
   width: 236px;
   height: auto;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   background: #161618;
+}
+
+html.studio-product .product-shots .shot-slot {
+  aspect-ratio: 941 / 1672;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), transparent 32%),
+    #12141a;
 }
 
 html.studio-product .product-shots figcaption {
@@ -1274,7 +1286,8 @@ html.studio-product .product-copy {
   }
 
   html.studio-product .product-shots figure,
-  html.studio-product .product-shots img {
+  html.studio-product .product-shots img,
+  html.studio-product .product-shots .shot-slot {
     width: 260px;
   }
 
